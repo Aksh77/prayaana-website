@@ -2,18 +2,18 @@
 
 body{
 	font-family: 'Montserrat';
+	width: 100%;
 }
 
 .navbar,  
 .nav {
-	float: right;
 	background: #fff !important;
 	border: none;
 	-webkit-box-shadow: none;
      -moz-box-shadow: none;
           box-shadow: none;
 	padding: 0px;
-	margin: 0;	
+	margin: 0 0 0 3%;
 }
 
 .navbar .nav > li > a {
@@ -24,14 +24,17 @@ body{
 	padding: 18px;
 
 }
+
 .img .navbar-brand{
-float: left;}
+float: left;
+}
+
 .dropdown span{
 	font-size: 12px;
 }
 
 #login{
-	height: 100%;
+	height: 90%;
 	color: white; 
 	background-color:#2AABB4; 
 	width: auto;
