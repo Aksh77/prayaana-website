@@ -20,7 +20,7 @@ body{
 	color: #666;
 	border-top:4px solid #fff;
 	text-shadow: none;
-	font-size: 12px;
+	font-size: 15px;
 	padding: 18px;
 
 }
@@ -30,7 +30,7 @@ float: left;
 }
 
 .dropdown span{
-	font-size: 12px;
+	font-size: 14px;
 }
 
 #login{
