@@ -103,6 +103,10 @@ body{
 	padding-bottom: 20px;
 }
 
+.row-eq-height{
+    display: flex;
+}
+
 #profile{
 	height: 65%;
 	width: 65%;
