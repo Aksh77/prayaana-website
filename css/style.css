@@ -29,6 +29,15 @@ float: left;}
 .dropdown span{
 	font-size: 12px;
 }
+
+#login{
+	height: 100%;
+	color: white; 
+	background-color:#2AABB4; 
+	width: auto;
+	padding: 20px;
+}
+
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
@@ -51,6 +60,13 @@ float: left;}
     margin: 5px auto; /* 15% from the top and centered */
     border: 1px solid #888;
     width: 100%; /* Could be more or less, depending on screen size */
+}
+
+
+.modal-content .container{
+	color: white; 
+	background-color: #2AABB4; 
+	width: 100%;
 }
 
 /* The Close Button */

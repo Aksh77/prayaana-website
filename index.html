@@ -10,80 +10,68 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<body style="">
+<body>
 	<section>
-	<div class="row " style="border-bottom: 2px solid #2AABB4; ">
-	    <div class="nav navbar">
-	        <div class="container row-fluid" style="width: 738px; padding: 0;">
-	            <div class="navbar-header" style=" margin-right: 0px;">
-	                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" >
-	                    <span class="sr-only">Toggle navigation</span>
-	                    <span class="icon-bar"></span>
-	                    <span class="icon-bar"></span>
-	                    <span class="icon-bar"></span>
-	                </button>
-	            </div>
-				<div class="navbar navbar-inverse" style="margin:0;">
-	            </div>
-	            <img class="navbar-brand img-responsive" src="images/logo.png" style=" max-height:100%; width: auto; padding:0;">
-	            <nav class="collapse navbar-collapse" style="margin: 0; padding-right: 0px;">
-	                <ul class="nav navbar-nav">
-	                    <li class="active dropdown">
-	                        <a href="index.html" class="dropdown-toggle " data-toggle="dropdown">Home</a>
-	                    </li>
-	                    <li class="dropdown">
-	                        <a href="#about" class="dropdown-toggle" data-toggle="dropdown">About Us</a>
-	                    </li>
-	                    <li class="dropdown">
-	                        <a href="gallery.html" class="dropdown-toggle" data-toggle="dropdown">Gallery</a>
-	                    </li>
-	                    <li class="dropdown">
-	                        <a href="#contact" class="dropdown-toggle" data-toggle="dropdown">Contact</a>
-	                    </li>
-	                    <li class="dropdown">
-	                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Apply now</a>
-	                    </li>
-	                    	<button style="height: 60px; color: white; background-color:#2AABB4; width: auto;padding: 20px;" 
-
-	                    	onclick="document.getElementById('id01').style.display='block'">Login</button>
-
-<!-- The Modal -->
-<div id="id01" class="modal">
-  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-
-  <!-- Modal Content -->
-  <form class="modal-content animate" action="/login"  >
-
-    <div class="container" style="color: white; background-color: #2AABB4; width: 100%;">
-      <label><b>Username</b></label>
-      <input style="color: #2AABB4;" type="text" placeholder="Enter Username" name="uname" required>
-      	<br>
-      <label><b>Password</b></label>
-      <input style="color: #2AABB4;" type="password" placeholder="Enter Password" name="psw" required>
-      <br>
-      	<br>
-      <button type="submit" style="color: #2AABB4;">Login</button>
-      <label>
-        <input type="checkbox" checked="checked"> Remember me
-      </label>
-    </div>
-
-    <div class="container" style="background-color:#f1f1f1; width: 100%; color: black;">
-    <br>
-      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button><br><br>
-      <span class="psw">Forgot<a href="#">password?</a></span>
-    </div>
-  </form>
-</div>
-	                        <!--<span class="fa fa-sign-in" aria-hidden="true"></span>
-	                        <span>
-	                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Login</a></span>-->
-	                    </li>
-	                </ul>
-	            </nav>
-	        </div>
-	    </div>
-	    </div>
+		<div class="row " style="border-bottom: 2px solid #2AABB4; ">
+		    <div class="nav navbar">
+		        <div class="container row-fluid" >
+		            <div class="navbar-header">
+		                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" >
+		                    <span class="sr-only">Toggle navigation</span>
+		                    <span class="icon-bar"></span>
+		                    <span class="icon-bar"></span>
+		                    <span class="icon-bar"></span>
+		                </button>
+		            </div>
+					<div class="navbar navbar-inverse" style="margin:0;">
+		            </div>
+		            <img class="navbar-brand img-responsive" src="images/logo.png" style=" max-height:100%; width: auto; padding:0;">
+		            <nav class="collapse navbar-collapse" style="margin: 0; padding-right: 0px;">
+		                <ul class="nav navbar-nav">
+		                    <li class="active dropdown">
+		                        <a href="index.html" class="dropdown-toggle" data-toggle="dropdown">Home</a>
+		                    </li>
+		                    <li class="dropdown">
+		                        <a href="#about" class="dropdown-toggle" data-toggle="dropdown">About Us</a>
+		                    </li>
+		                    <li class="dropdown">
+		                        <a href="gallery.html" class="dropdown-toggle" data-toggle="dropdown">Gallery</a>
+		                    </li>
+		                    <li class="dropdown">
+		                        <a href="#contact" class="dropdown-toggle" data-toggle="dropdown">Contact</a>
+		                    </li>
+		                    <li class="dropdown">
+		                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Apply now</a>
+		                    </li>
+		                    	<button id="login" onclick="document.getElementById('id01').style.display='block'">Login</button>
+								<!-- The Modal -->
+								<div id="id01" class="modal">
+									<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+									<form class="modal-content animate" action="/login"  >
+										<div class="container">
+											<label><b>Username</b></label>
+											<input style="color: #2AABB4;" type="text" placeholder="Enter Username" name="uname" required>
+											<br>
+											<label><b>Password</b></label>
+											<input style="color: #2AABB4;" type="password" placeholder="Enter Password" name="psw" required>
+											<br>
+											<br>
+											<button type="submit" style="color: #2AABB4;">Login</button>
+											<label><input type="checkbox" checked="checked">Remember me</label>
+										</div>
+										<div class="container" style="background-color:#f1f1f1; width: 100%; color: black;">
+											<br>
+											<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button><br><br>
+											<span class="psw">Forgot<a href="#">password?</a></span>
+										</div>
+									</form>
+								</div>
+		                    </li>
+		                </ul>
+		            </nav>
+		        </div>
+		    </div>
+		</div>
 	</section>
 	<section id="banner">
 		<div class="container-fluid" style="padding-right: 0px;">
