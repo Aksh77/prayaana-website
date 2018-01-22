@@ -38,7 +38,8 @@ float: left;
 	color: white; 
 	background-color:#2AABB4; 
 	width: auto;
-	padding: 20px;
+	padding: 18px 20px 18px 20px;
+	margin: 0;
 }
 
 .modal {
@@ -46,48 +47,51 @@ float: left;
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
     align-self: center;
-    font-size: 12px;
-    margin-top: 10%;
-    margin-left: 25%;
-    width: 60%; /* Full width */
+    font-size: 14px;
+    width: 34%; /* Full width */
     height: 50%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
     background-color:#2AABB4; /*rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-    padding-top: 60px;
+    top: 25%;
+    right: 33%;
+    bottom: 25%;
+    left: 33%;
 }
 
-/* Modal Content/Box */
-.modal-content {
-    background-color: #2AABB4/*#fefefe;*/
-    margin: 5px auto; /* 15% from the top and centered */
-    border: 1px solid #888;
-    width: 100%; /* Could be more or less, depending on screen size */
+@media screen and (max-width: 768px) {
+    .modal {
+		width: 94%; 
+		height: auto;
+		top: 2%;
+	    right: 2%;
+	    bottom: 2%;
+	    left: 1%;
+    }
 }
 
+.modal-header,
+.modal-footer{
+	background-color: #2AABB4;
+	color: #fff;
+	padding: 2% 5% 2% 5%;
+}
 
 .modal-content .container{
-	color: white; 
-	background-color: #2AABB4; 
+	color: #000; 
 	width: 100%;
+	padding: 5%;
 }
 
-/* The Close Button */
-.close {
-    /* Position it in the top right corner outside of the modal */
-    position: absolute;
-    right: 25px;
-    top: 0; 
-    color: #000;
-    font-size: 35px;
-    font-weight: bold;
+#close{
+	font-size: 16px;
+	color: #fff;
 }
 
-/* Close button on hover */
-.close:hover,
-.close:focus {
-    color: red;
-    cursor: pointer;
+#close:hover,
+#close:focus {
+    opacity: 0.8;
+    text-decoration: none;
 }
 
 /* Add Zoom Animation */
@@ -216,7 +220,7 @@ float: left;
 
 #name{
 	text-align: center;
-	font-size: 14px;
+	font-size: 15px;
 }
 
 #partners{

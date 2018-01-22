@@ -44,24 +44,23 @@
 		                    	<button id="login" onclick="document.getElementById('id01').style.display='block'">Login</button>
 								<!-- The Modal -->
 								<div id="id01" class="modal">
-									<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
 									<form class="modal-content animate" action="/login"  >
+										<div class="modal-header">         
+								          <p class="pull-right" data-dismiss="modal"><a id="close" href="">X</a></p>
+								          <h2 class="pull-left">Prayaana</h2>
+								        </div>
 										<div class="container">
-											<label><b>Username</b></label>
-											<input style="color: #2AABB4;" type="text" placeholder="Enter Username" name="uname" required>
-											<br>
-											<label><b>Password</b></label>
-											<input style="color: #2AABB4;" type="password" placeholder="Enter Password" name="psw" required>
-											<br>
-											<br>
-											<button type="submit" style="color: #2AABB4;">Login</button>
-											<label><input type="checkbox" checked="checked">Remember me</label>
+											<p><label><b>Username&nbsp;</b></label>
+											<input type="text" placeholder="Enter Username" name="uname" style="min-width: 100%" required></p>
+											<p><label><b>Password&nbsp;&nbsp;</b></label>
+											<input type="password" placeholder="Enter Password" name="psw" required style="min-width: 100%"></p>
+											<button class="btn btn-primary pull-left" type="submit" style="background-color:#2AABB4;">Login</button>
 										</div>
-										<div class="container" style="background-color:#f1f1f1; width: 100%; color: black;">
-											<br>
-											<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button><br><br>
-											<span class="psw">Forgot<a href="#">password?</a></span>
-										</div>
+										<div class="modal-footer">
+							              <!--<button type="button" class="pull-left" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>-->
+							              <label class="pull-left"><input type="checkbox" checked="checked">Remember me</label>
+							              <p class="pull-right login"><a href="#" style="color:#fff;">Forgot Password ?</a></p>
+							          </div>
 									</form>
 								</div>
 		                    </li>
@@ -193,7 +192,6 @@
 					<img src="images/Enfa.jpeg" id="profile">
 					<p id="name"><strong>Enfa Rose George</strong></p>
 				</div>
-				
 				<div class="col-sm-3 col-xs-6">
 					<img src="images/Haritha.jpeg" id="profile">
 					<p id="name"><strong>Haritha Paul</strong></p>
