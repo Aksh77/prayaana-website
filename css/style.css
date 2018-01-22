@@ -62,11 +62,10 @@ float: left;
 @media screen and (max-width: 768px) {
     .modal {
 		width: 98%; 
-		height: auto;
-		top: 2%;
-	    right: 2%;
-	    bottom: 2%;
+		height:80%;
+	    right: 1%;
 	    left: 1%;
+    	vertical-align: middle;
     }
 }
 
