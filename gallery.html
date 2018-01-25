@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Prayaana</title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable = no">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://use.fontawesome.com/c1c54350b1.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<section>
+		<div class="row " style="border-bottom: 2px solid #2AABB4; ">
+		    <div class="nav navbar">
+		        <div class="container-fluid row-fluid">
+		            <div class="navbar-header">
+		                <button type="button" class="navbar-toggle collapsed navbar-left" data-toggle="collapse" data-target=".navbar-collapse" >
+		                    <span class="sr-only">Toggle navigation</span>
+		                    <span class="icon-bar"></span>
+		                    <span class="icon-bar"></span>
+		                    <span class="icon-bar"></span>
+		                </button>
+		            </div>
+		            <img class="navbar-brand img-responsive" src="images/logo.png" style=" max-height:100%; width: auto; padding:0;">
+		            <div class="collapse navbar-collapse" style="margin: 0; padding-right: 0px;">
+		                <ul class="nav navbar-nav navbar-right">
+		                    <li class="dropdown">
+		                        <a href="index.html" class="dropdown-toggle" data-toggle="dropdown">Home</a>
+		                    </li>
+		                    <li class="dropdown">
+		                        <a href="#about" class="dropdown-toggle" data-toggle="dropdown">About Us</a>
+		                    </li>
+		                    <li class="active dropdown">
+		                        <a href="gallery.html" class="dropdown-toggle" data-toggle="dropdown">Gallery</a>
+		                    </li>
+		                    <li class="dropdown">
+		                        <a href="#contact" class="dropdown-toggle" data-toggle="dropdown">Contact</a>
+		                    </li>
+		                    <li class="dropdown">
+		                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Apply now</a>
+		                    </li>
+		                    	<button id="login" onclick="document.getElementById('id01').style.display='block'" >Login</button>
+								<!-- The Modal -->
+								<div id="id01" class="modal">
+									<form class="modal-content animate" action="/login"  >
+										<div class="modal-header">         
+								          <p class="pull-right" data-dismiss="modal"><a id="close" href="">X</a></p>
+								          <h2 class="pull-left">Prayaana</h2>
+								        </div>
+										<div class="container">
+											<p><label><b>Username&nbsp;</b></label>
+											<input type="text" placeholder="Enter Username" name="uname" style="min-width: 100%" required></p>
+											<p><label><b>Password&nbsp;&nbsp;</b></label>
+											<input type="password" placeholder="Enter Password" name="psw" required style="min-width: 100%"></p>
+											<button class="btn btn-primary pull-left" type="submit" style="background-color:#2AABB4;">Login</button>
+										</div>
+										<div class="modal-footer">
+							              <label class="pull-left"><input type="checkbox" checked="checked">Remember me</label>
+							              <p class="pull-right login"><a href="#" style="color:#fff;">Forgot Password ?</a></p>
+							          </div>
+									</form>
+								</div>
+		                    </li>
+		                </ul>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+	</section>
+	<section>
+		<div class="row">
+			<div class="col-sm-6 col-xs-12">
+				<img src="images/prayaana1.jpeg" id="gal-img"> 
+			</div>
+			<div class="col-sm-6 col-xs-12">
+				<img src="images/prayaana2.jpeg" id="gal-img">
+			</div>
+		</div>
+	</section>
+</body>
+</html>
+												

@@ -262,4 +262,12 @@ float: left;
 	text-align: center;
 	margin-bottom: 20px;
 	margin-top: 20px;
+}		
+
+#gal-img{
+	height: 85%;
+	width: 85%;
+	margin: 10% 5% 7% 5%;
+	border: 2px solid #2AABB4;
+    box-shadow: 2px 2px 4px #000000;
 }
