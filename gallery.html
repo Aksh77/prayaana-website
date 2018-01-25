@@ -9,6 +9,7 @@
     <script src="https://use.fontawesome.com/c1c54350b1.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="links.js"></script>
 </head>
 <body>
 	<section>
@@ -26,17 +27,14 @@
 		            <img class="navbar-brand img-responsive" src="images/logo.png" style=" max-height:100%; width: auto; padding:0;">
 		            <div class="collapse navbar-collapse" style="margin: 0; padding-right: 0px;">
 		                <ul class="nav navbar-nav navbar-right">
-		                    <li class="dropdown">
-		                        <a href="index.html" class="dropdown-toggle" data-toggle="dropdown">Home</a>
-		                    </li>
-		                    <li class="dropdown">
-		                        <a href="#about" class="dropdown-toggle" data-toggle="dropdown">About Us</a>
-		                    </li>
 		                    <li class="active dropdown">
-		                        <a href="gallery.html" class="dropdown-toggle" data-toggle="dropdown">Gallery</a>
+		                        <a id="homelink" href="index.html" class="dropdown-toggle" data-toggle="dropdown">Home</a>
 		                    </li>
 		                    <li class="dropdown">
-		                        <a href="#contact" class="dropdown-toggle" data-toggle="dropdown">Contact</a>
+		                        <a id="gallerylink" href="gallery.html" class="dropdown-toggle" data-toggle="dropdown">Gallery</a>
+		                    </li>
+		                    <li class="dropdown">
+		                        <a id="contactlink" href="#contact" class="dropdown-toggle" data-toggle="dropdown">Contact</a>
 		                    </li>
 		                    <li class="dropdown">
 		                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Apply now</a>
@@ -69,7 +67,7 @@
 		    </div>
 		</div>
 	</section>
-	<section>
+	<section  style="height: 100vh;">
 		<div class="row">
 			<div class="col-sm-6 col-xs-12">
 				<img src="images/prayaana1.jpeg" id="gal-img"> 
@@ -79,6 +77,54 @@
 			</div>
 		</div>
 	</section>
+	<footer id="contact">
+		<div>
+			<div class="container">
+			<h3>Contact Us</h3>
+			<hr style="border-color:#8c8c8c">
+				<div class="row">
+					<div class="col-sm-7">
+						<div>
+							<p><i class="fa fa-2x fa-home"></i>
+							&nbsp;&nbsp;Prayaana labs, 4Tune Factory, 7/252,D Space, Silver Sand Island,</p>
+							<p>Tripunithura Road, Vytilla, Kerala - 682019</p>
+						</div>
+						<div>
+							<p><i class="fa fa-2x fa-mobile"></i>
+							&nbsp;&nbsp;&nbsp;8590339393</p>
+						</div>
+					</div>
+					<div class="col-sm-5">
+						<p>
+							<i class="fa fa-envelope"></i>
+							<a href="mailto:joinprayaana@gmail.com" style="text-decoration:none; color:#fff;">
+							&nbsp;&nbsp;&nbsp;joinprayaana@gmail.com</a>
+						</p>
+						<p>
+							<i class="fa fa-2x fa-facebook"></i>
+							<a href="https://www.facebook.com/prayaanalabs" style="text-decoration:none; color:#fff;">
+								&nbsp;&nbsp;&nbsp;Prayaana Labs
+							</a>
+						</p>
+						<p>
+							<i class="fa fa-2x fa-facebook"></i>
+							<a href="https://www.facebook.com/4tunefactory" style="text-decoration:none; color:#fff;">
+								&nbsp;&nbsp;&nbsp;4Tune Factory
+							</a>
+						</p>
+					</div> 
+				</div>
+				<hr style="border-color:#8c8c8c">
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<small>Copyright © 2017 Prayaana.org | An initiative of 4TuneFactory </small>
+				</div>
+			</div>
+		</div>
+	</footer>
 </body>
 </html>
 												
