@@ -244,6 +244,14 @@ float: left;
 	padding-bottom: 20px;
 }
 
+#team-profile{
+	height: 70%;
+	width: 70%;
+	margin: 10% 5% 7% 5%;
+	border: 2px solid #2AABB4;
+    box-shadow: 2px 2px 4px #000000;
+}
+
 #profile{
 	height: 65%;
 	width: 65%;
@@ -266,7 +274,7 @@ float: left;
 
 #gal-img{
 	height: 85%;
-	width: 85%;
+	width: 75%;
 	margin: 10% 5% 7% 5%;
 	border: 2px solid #2AABB4;
     box-shadow: 2px 2px 4px #000000;
