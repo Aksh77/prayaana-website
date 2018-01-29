@@ -222,7 +222,7 @@ float: left;
     margin-bottom:8px;
     background-color:transparent;
     background-image:none;
-    border:1px solid #444;          /* added line */
+    border:1px solid #444;         
     border-radius:4px;
 }
 .icon-bar
@@ -232,9 +232,26 @@ float: left;
     height:2px;
     border-radius:1px;
 }
-/*.navbar-nav{
-	float: right;
-}*/
+
+#msg{
+	margin: 3% 0% 3% 0%;
+}
+
+video {
+  width: 80% !important;
+  height: auto !important;
+}
+
+@media screen and (max-width: 768px) {
+    video {
+	  width: 100% !important;
+	  height: auto !important;
+	}
+
+	#quote{
+		font-size: 50%;
+	}
+}
 
 #contact {
 	background-color: #404040;
