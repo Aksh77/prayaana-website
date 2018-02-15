@@ -17,4 +17,7 @@ $( document ).ready(function() {
         location.href = 'index.html';
     });
 
+    $("#dishalink").click(function() {
+        location.href = 'disha.html';
+    });
 });
