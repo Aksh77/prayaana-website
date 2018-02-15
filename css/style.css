@@ -192,14 +192,17 @@ float: left;
     opacity: 0.95;
 }
 
-#apply{
-	margin: 10% 0% 5% 0%;
+#news{
+	margin: 15% 10% 10% 10%;
 	padding: 25px 20px 25px 20px;
+	height: 80vh;
+	width: 25vw;
   	background-color: #2AABB4;
     box-shadow: 2px 2px 4px #000000;
   	text-align: center; 
   	color: #000;
 }
+
 .navbar{
 	min-height: auto;
 }
