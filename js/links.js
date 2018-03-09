@@ -22,6 +22,6 @@ $( document ).ready(function() {
     });
 
     $("#applylink").click(function() {
-        location.href = 'https://goo.gl/forms/XQUKXnTwbETLRpQy1';
+        location.href = 'https://goo.gl/forms/VXamYu81X2IfORCK2';
     });
 });
