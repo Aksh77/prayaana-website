@@ -20,4 +20,8 @@ $( document ).ready(function() {
     $("#dishalink").click(function() {
         location.href = 'disha.html';
     });
+
+    $("#applylink").click(function() {
+        location.href = 'https://goo.gl/forms/XQUKXnTwbETLRpQy1';
+    });
 });
