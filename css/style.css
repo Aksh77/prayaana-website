@@ -308,6 +308,14 @@ video {
     box-shadow: 2px 2px 4px #000000;
 }
 
+#disha_pic{
+	height: 75%;
+	width: 75%;
+	margin: 3%;
+	border: 2px solid #2AABB4;
+    box-shadow: 2px 2px 4px #000000;	
+}
+
 #profile{
 	height: 65%;
 	width: 65%;
